@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  color: inherit;
+  display: block;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-color: #fafafa;
+  padding: 0 5rem;
+}
+
+/* Bordes */
+body.dark-mode {
+  background-color: #141414;
+}
+
+/* Navbar */
+.dark-mode #navbar {
+  background-color: #18181b;
+}
+.dark-mode #navbar div a {
+  color: #f4f4f5;
+  border-color: #ffffff;
+}
+.dark-mode #navbar div ul li a:hover {
+  color: #60a5fa;
+}
+.dark-mode #navbar div ul {
+  background-color: #252529;
+  border-color: #252529;
+}
+.dark-mode #navbar div button {
+  background-color: rgb(32, 32, 32);
+  border-color: #18181b;
+}
+
+/* Sobre mi */
+.dark-mode #about {
+  background-color: #18181b;
+}
+.dark-mode #about h1 {
+  color: #f4f4f5;
+}
+.dark-mode #about p {
+  color: #a1a1aa;
+}
+
+/* Proyectos */
+.dark-mode #proyects {
+  background-color: #18181b;
+}
+.dark-mode #proyects h1 {
+  color: #ffffff;
+}
+.dark-mode #proyects article section {
+  background-color: #2f3030;
+  box-shadow: 0 4px 8px #4444441a;
+  transition: box-shadow 0.3 ease;
+}
+.dark-mode #proyects article section p {
+  color: #f0f0f0;
+}
+.dark-mode #proyects article section h3 {
+  color: #ffffff;
+}
+.dark-mode #proyects article section div ul li {
+  color: #f0f0f0;
+}
+.dark-mode #proyects article section:hover {
+  background-color: #2f3030;
+  box-shadow: 0 8px 16px #50505033;
+}
+.dark-mode #proyects article section div a:hover {
+  background-color: #555555;
+}
+
+/* Habilidades */
+
+.dark-mode #skills {
+  background-color: #18181b;
+}
+.dark-mode #skills h1 {
+  color: #fafafa;
+}
+.dark-mode #skills section {
+  background-color: #18181b;
+  border: 1px solid #27272c;
+  border-radius: 8px;
+}
+
+/* Footer  */
+.dark-mode #footer {
+  background-color: #18181b;
+  border-color: #2a2b2b;
+}
+.dark-mode #footer p {
+  color: #fafafa;
+}
+.dark-mode #footer ul li {
+  color: #fafafa;
+}
+.dark-mode #footer ul li:hover {
+  color: #60a5fa;
+}

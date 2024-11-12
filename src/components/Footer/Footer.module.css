@@ -1,0 +1,28 @@
+.hero {
+  border-top: 1px solid #f4f4f5;
+  background-color: #ffffff;
+  padding: 3vw 7vw;
+}
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+.navigation ul li {
+  font-size: 0.9rem;
+  color: #27272ae6;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.navigation ul li:hover {
+  color: #60a5fa;
+}
+.hero p {
+  display: flex;
+  justify-content: end;
+  font-size: 0.9rem;
+  color: #27272ae6;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}

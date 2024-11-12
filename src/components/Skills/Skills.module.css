@@ -1,0 +1,39 @@
+.hero {
+  padding: 3% 7.5vw;
+  background-color: #ffffff;
+}
+.title {
+  font-size: 3em;
+  font-weight: 700;
+  color: #27272a;
+  font-family: "Inter", sans-serif;
+  padding: 4vw;
+  display: flex;
+  justify-content: center;
+}
+.skills {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(83, 83, 83, 0.1);
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+  transition: box-shadow 0.3 ease;
+}
+.logo {
+  width: 4rem;
+  min-width: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.listSkill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 1.8rem;
+}
+.listSkill li {
+  flex-basis: calc(100% / 8 - 1.5rem);
+}
+.logo:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(4px 4px 6px rgba(110, 110, 110, 0.3));
+}
