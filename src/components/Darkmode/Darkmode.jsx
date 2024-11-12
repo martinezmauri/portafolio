@@ -21,8 +21,8 @@ export const Darkmode = () => {
 
   const returnImage = () => {
     return isDarkMode
-      ? "/src/assets/moon-logo.png"
-      : "/src/assets/sun-logo.png";
+      ? "https://res.cloudinary.com/dqae811zz/image/upload/v1731424080/kpe3fkdqrulcixzffaxw.png"
+      : "https://res.cloudinary.com/dqae811zz/image/upload/v1731424078/mt71axtdmj25lsjatyzy.png";
   };
 
   return (

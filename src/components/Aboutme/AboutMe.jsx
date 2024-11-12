@@ -38,7 +38,7 @@ export const AboutMe = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="src\assets\linkedin-logo.png"
+              src="https://res.cloudinary.com/dqae811zz/image/upload/v1731424079/o4e6e9icvk14blgtxw70.png"
               alt="logo de linkedin"
               className={styles.logo}
             />
@@ -49,7 +49,7 @@ export const AboutMe = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="src\assets\github-logo.png"
+              src="https://res.cloudinary.com/dqae811zz/image/upload/v1731424079/nk7bxov0ojmzeiauy8ek.png"
               alt="logo de github"
               className={styles.logo}
             />

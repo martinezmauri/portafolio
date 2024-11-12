@@ -53,7 +53,10 @@ export const Proyects = () => {
                   href="https://github.com/DevNavigator/DevNavigatorProject"
                   target="_blank"
                 >
-                  <img src="src\assets\github-logo.png" alt="" />
+                  <img
+                    src="https://res.cloudinary.com/dqae811zz/image/upload/v1731424079/nk7bxov0ojmzeiauy8ek.png"
+                    alt="github-logo"
+                  />
                 </a>
               </div>
             </div>
@@ -99,7 +102,10 @@ export const Proyects = () => {
                   href="https://github.com/martinezmauri/EcommerceAPI"
                   target="_blank"
                 >
-                  <img src="src\assets\github-logo.png" alt="" />
+                  <img
+                    src="https://res.cloudinary.com/dqae811zz/image/upload/v1731424079/nk7bxov0ojmzeiauy8ek.png"
+                    alt="github-logo"
+                  />
                 </a>
               </div>
             </div>
