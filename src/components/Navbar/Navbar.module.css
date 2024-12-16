@@ -14,6 +14,7 @@
   transition: box-shadow 0.3 ease;
   gap: 2rem;
 }
+
 .logo {
   font-family: "PT Serif", sans-serif;
   font-size: 3em;
@@ -29,6 +30,41 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
+
 .itemNavbar a:hover {
   color: #60a5fa;
+}
+
+.menuToggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 0 10px;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 42%;
+  }
+
+  .logo {
+    font-size: 2em;
+  }
+
+  .menuToggle {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #202022;
+  }
+
+  .hero.active .navbar {
+    display: flex;
+    gap: 1rem;
+  }
 }

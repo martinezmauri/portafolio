@@ -74,6 +74,9 @@ body.dark-mode {
 .dark-mode #navbar {
   background-color: #18181b;
 }
+.dark-mode #navbar div {
+  color: #f4f4f5;
+}
 .dark-mode #navbar div a {
   color: #f4f4f5;
   border-color: #ffffff;

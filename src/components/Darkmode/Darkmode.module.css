@@ -4,8 +4,8 @@
   box-shadow: 0 6px 9px #6363630f;
   padding: 8px 12px;
   background-color: #ffffff;
-
   transition: box-shadow 0.3 ease;
+  margin-top: 10px;
 }
 .sun {
   width: 20px;

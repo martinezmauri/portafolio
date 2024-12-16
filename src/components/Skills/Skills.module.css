@@ -37,3 +37,24 @@
   transform: scale(1.2);
   filter: drop-shadow(4px 4px 6px rgba(110, 110, 110, 0.3));
 }
+
+@media (max-width: 768px) {
+  .title {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .hero {
+    padding: 3%;
+  }
+  .listSkill {
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .listSkill li {
+    flex-basis: calc(30% - 1rem);
+    text-align: center;
+  }
+  .logo {
+    width: 2rem;
+  }
+}

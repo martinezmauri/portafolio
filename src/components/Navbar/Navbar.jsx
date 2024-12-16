@@ -11,12 +11,21 @@ export const Navbar = () => {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const handleClickMenu = () => {
+    const menu = document.querySelector(`.${styles.hero}`);
+    menu.classList.toggle(styles.active);
+  };
+
   return (
     <nav id="navbar" className={styles.hero}>
       <div>
         <a href="#" className={styles.logo}>
           mM
         </a>
+      </div>
+      <div className={styles.menuToggle} onClick={handleClickMenu}>
+        ☰
       </div>
       <div className={styles.container}>
         <ul className={styles.navbar}>

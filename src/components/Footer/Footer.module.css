@@ -26,3 +26,19 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2vw 3vw;
+  }
+  .navigation {
+    padding-bottom: 2vw;
+  }
+  a {
+    font-size: 12px;
+  }
+  .hero p {
+    align-items: center;
+    font-size: 12px;
+  }
+}
