@@ -48,7 +48,10 @@
     display: none;
     flex-direction: column;
     position: absolute;
-    left: 42%;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
   }
 
   .logo {
