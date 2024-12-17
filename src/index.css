@@ -161,3 +161,9 @@ body.dark-mode {
 .dark-mode #footer ul li:hover {
   color: #60a5fa;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 2rem;
+  }
+}
