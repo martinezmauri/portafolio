@@ -54,6 +54,18 @@ export const AboutMe = () => {
               className={styles.logo}
             />
           </a>
+          <a
+            href="https://res.cloudinary.com/dqae811zz/image/upload/v1734475379/w1koxb97titymckd2egq.pdf"
+            className={styles.buttonCV}
+            target="_blank"
+          >
+            CV
+            <img
+              src="https://res.cloudinary.com/dqae811zz/image/upload/v1734474939/njhxh7jhgvupxxq3tc3d.png"
+              alt=""
+              className={styles.logo}
+            />
+          </a>
         </section>
       </article>
     </main>

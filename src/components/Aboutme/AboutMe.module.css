@@ -41,6 +41,18 @@
 .photo:hover {
   transform: scale(1.05);
 }
+.buttonCV {
+  font-family: "Inter", sans-serif;
+  border: 1px solid #a1a1a1;
+  display: flex;
+  width: 7rem;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  color: #a1a1aa;
+  border-radius: 16px;
+  padding: 0 10px;
+}
 
 @media (max-width: 768px) {
   .hero {
