@@ -82,4 +82,11 @@
     text-align: center;
     font-size: 1.5em;
   }
+  .imgCard {
+    display: none;
+  }
+  .containerCards {
+    grid-template-columns: 1fr;
+    gap: 5vw;
+  }
 }
