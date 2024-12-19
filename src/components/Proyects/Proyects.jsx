@@ -24,10 +24,18 @@ export const Proyects = () => {
             <h1 className={styles.titleCard}>{value.title}</h1>
             <p className={styles.descCard}>{value.description}</p>
             <div className={styles.redirectContainer}>
-              <a href={value.urlRepository} className={styles.redirect}>
+              <a
+                href={value.urlRepository}
+                target="_blank"
+                className={styles.redirect}
+              >
                 Repositorio
               </a>
-              <a href={value.urlDeploy} className={styles.redirect}>
+              <a
+                href={value.urlDeploy}
+                target="_blank"
+                className={styles.redirect}
+              >
                 Visitar Sitio
               </a>
             </div>
