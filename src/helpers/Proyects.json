@@ -13,6 +13,6 @@
     "title": "API de Ecommerce",
     "description": "Una API robusta para ecommerce desarrollada con NestJS y TypeScript, diseñada para ofrecer una plataforma backend escalable y segura. Implementa autenticación y autorización con JWT, roles de usuario, y gestión de productos y pedidos. Además, permite almacenar y actualizar imágenes de productos usando Cloudinary. Utiliza Docker para su contenedorización y cuenta con pruebas unitarias y de extremo a extremo para asegurar la calidad del código.",
     "urlRepository": "https://github.com/martinezmauri/EcommerceAPI",
-    "urlDeploy": "https://ecommerce-latest-xfvg.onrender.com/api"
+    "urlDeploy": "https://ecommerceapi-production-106c.up.railway.app/api"
   }
 ]
