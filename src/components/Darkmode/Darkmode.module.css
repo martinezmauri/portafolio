@@ -1,11 +1,16 @@
 .darkmode {
   border: 1px solid #f4f4f5;
-  border-radius: 100px;
+  border-radius: 50%;
   box-shadow: 0 6px 9px #6363630f;
-  padding: 8px 12px;
+  padding: 6px;
   background-color: #ffffff;
   transition: box-shadow 0.3 ease;
   margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sun {
   width: 20px;
@@ -13,6 +18,8 @@
 }
 @media (max-width: 768px) {
   .darkmode {
-    padding: 4px 8px;
+    width: 32px;
+    height: 32px;
+    padding: 4px;
   }
 }

@@ -26,12 +26,12 @@
 .listSkill {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 2rem;
-  gap: 1.8rem;
+  gap: 3rem 5rem;
 }
 .listSkill li {
-  flex-basis: calc(100% / 8 - 1.5rem);
+  flex: 0 1 auto;
 }
 .logo:hover {
   transform: scale(1.2);

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./AboutMe.module.css";
+import { Download } from "lucide-react";
 
 export const AboutMe = () => {
   return (
@@ -15,20 +16,20 @@ export const AboutMe = () => {
         <h1>Mauricio Martinez.</h1>
         <section>
           <p>
-            ¡Hola! Soy Mauricio, desarrollador web de Mendoza, Argentina. Me
-            apasiona el desarrollo backend y tengo experiencia trabajando con
-            tecnologías como NestJS, TypeScript, PostgreSQL, Express, MongoDB,
-            Node.js, Docker y despliegue de aplicaciones. He construido y
-            documentado APIs, como un ecommerce que incluyo en mi portafolio, y
-            disfruto resolver problemas complejos a través del código. Mi
-            formación en la Universidad Tecnológica Nacional, junto con estudios
-            autodidactas y un bootcamp, me ha permitido trabajar en proyectos
-            fullstack y fortalecer mis habilidades en frontend con tecnologías
-            como HTML, CSS, React, Next.js y Redux. Además, me gusta aprender de
-            manera constante para mejorar mis habilidades y adaptarme a las
-            últimas tendencias tecnológicas. Actualmente, estoy en busca de una
-            oportunidad para contribuir en un equipo como desarrollador, donde
-            pueda seguir creciendo y aportar mis conocimientos.
+            <strong>
+              ¡Hola! Soy Mauricio, desarrollador web de Mendoza, Argentina.
+            </strong>
+            <br />
+            Me apasiona la programación y disfruto construir soluciones desde el
+            backend hasta el frontend. Tengo experiencia trabajando con
+            tecnologías como NestJS, TypeScript, PostgreSQL, React y Next.js,
+            entre otras. He participado en proyectos fullstack, desarrollando y
+            documentando APIs, así como también creando interfaces funcionales y
+            atractivas. Mi formación incluye estudios en la UTN, un bootcamp
+            intensivo y un fuerte enfoque autodidacta, lo que me permite
+            aprender constantemente y adaptarme a nuevos desafíos. Actualmente,
+            busco una oportunidad para seguir creciendo como desarrollador y
+            aportar valor en un equipo de trabajo.
           </p>
         </section>
         <section className={styles.butons}>
@@ -59,12 +60,9 @@ export const AboutMe = () => {
             className={styles.buttonCV}
             target="_blank"
           >
-            CV
-            <img
-              src="https://res.cloudinary.com/dqae811zz/image/upload/v1734474939/njhxh7jhgvupxxq3tc3d.png"
-              alt=""
-              className={styles.logo}
-            />
+            <span className={styles.cvDesktop}>CV</span>
+            <span className={styles.cvMobile}>Hoja de vida</span>
+            <Download />
           </a>
         </section>
       </article>

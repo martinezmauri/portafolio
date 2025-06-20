@@ -1,9 +1,19 @@
 [
   {
+    "imgProyect": "https://res.cloudinary.com/dqae811zz/image/upload/v1734464184/kfp8jinmq3oygyijgff6.png",
+    "time": "Ene 2025 - En desarrollo",
+    "title": "Gestor de turnos SaaS",
+    "description": "Una aplicación SaaS para la gestión de turnos y reservas en negocios, desarrollada con React en el frontend y NestJS en el backend. Permite administrar clientes, empleados, servicios y turnos con una interfaz intuitiva. Implementa autenticación segura con JWT, gestión de roles y manejo de pagos mediante integraciones externas. Además, cuenta con funciones de notificación y un sistema de reportes para optimizar la administración del negocio.",
+    "shortDescription": "App SaaS para gestionar turnos, empleados y servicios con autenticación y reportes.",
+    "urlRepository": "https://github.com/martinezmauri/ProGestionFrontend",
+    "urlDeploy": ""
+  },
+  {
     "imgProyect": "https://res.cloudinary.com/dqae811zz/image/upload/v1734463925/nexwfszam4j5jfz7jbps.png",
     "time": "Oct 2024 - Nov 2024",
     "title": "DevNavigator",
-    "description": "Una plataforma educativa diseñada para ofrecer cursos pagos, con una robusta autenticación de usuarios y un sistema de gestión de pagos seguro mediante la integración con la API de Mercado Pago. Los usuarios pueden personalizar sus perfiles mediante un servicio en la nube (Cloudinary) para almacenar y gestionar imágenes. Además, la plataforma implementa un sistema de recompensas para incentivar el aprendizaje, otorgando puntos por cada curso completado o cuestionario contestado correctamente. ",
+    "description": "Una plataforma educativa diseñada para ofrecer cursos pagos, con una robusta autenticación de usuarios y un sistema de gestión de pagos seguro mediante la integración con la API de Mercado Pago. Los usuarios pueden personalizar sus perfiles mediante un servicio en la nube (Cloudinary) para almacenar y gestionar imágenes. Además, la plataforma implementa un sistema de recompensas para incentivar el aprendizaje, otorgando puntos por cada curso completado o cuestionario contestado correctamente.",
+    "shortDescription": "Plataforma de cursos pagos con pagos por Mercado Pago, perfiles personalizados y sistema de recompensas.",
     "urlRepository": "https://github.com/DevNavigator/DevNavigatorProject",
     "urlDeploy": "https://dev-navigator.vercel.app/"
   },
@@ -12,6 +22,7 @@
     "time": "Ago 2024 - Sep 2024",
     "title": "API de Ecommerce",
     "description": "Una API robusta para ecommerce desarrollada con NestJS y TypeScript, diseñada para ofrecer una plataforma backend escalable y segura. Implementa autenticación y autorización con JWT, roles de usuario, y gestión de productos y pedidos. Además, permite almacenar y actualizar imágenes de productos usando Cloudinary. Utiliza Docker para su contenedorización y cuenta con pruebas unitarias y de extremo a extremo para asegurar la calidad del código.",
+    "shortDescription": "API de ecommerce con NestJS, JWT, roles, gestión de productos e imágenes en Cloudinary.",
     "urlRepository": "https://github.com/martinezmauri/EcommerceAPI",
     "urlDeploy": "https://ecommerceapi-production-106c.up.railway.app/api"
   }

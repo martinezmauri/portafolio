@@ -45,13 +45,19 @@
   font-family: "Inter", sans-serif;
   border: 1px solid #a1a1a1;
   display: flex;
-  width: 7rem;
+
   gap: 12px;
   justify-content: center;
   align-items: center;
   color: #a1a1aa;
-  border-radius: 16px;
+  border-radius: 20px;
   padding: 0 10px;
+}
+.cvMobile {
+  display: inline;
+}
+.cvDesktop {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -81,5 +87,11 @@
   }
   .logo {
     width: 3vw;
+  }
+  .cvMobile {
+    display: none;
+  }
+  .cvDesktop {
+    display: inline;
   }
 }

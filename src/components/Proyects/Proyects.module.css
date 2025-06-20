@@ -14,7 +14,7 @@
 .containerCards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10vw;
+  gap: 2vw;
 }
 .card {
   background-color: #f1f1f1;
@@ -74,6 +74,13 @@
   width: 2.5vw;
 }
 
+.descMobile {
+  display: none;
+}
+.descDesktop {
+  display: block;
+}
+
 @media (max-width: 768px) {
   .title {
     text-align: center;
@@ -85,5 +92,11 @@
   .containerCards {
     grid-template-columns: 1fr;
     gap: 5vw;
+  }
+  .descMobile {
+    display: block;
+  }
+  .descDesktop {
+    display: none;
   }
 }

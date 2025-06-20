@@ -3,8 +3,6 @@ import styles from "./Proyects.module.css";
 import data from "../../helpers/Proyects.json";
 
 export const Proyects = () => {
-  console.log(data);
-
   return (
     <main className={styles.hero} id="proyects">
       <h1 className={styles.title}>Proyectos.</h1>
@@ -22,7 +20,12 @@ export const Proyects = () => {
               {value.time}
             </time>
             <h1 className={styles.titleCard}>{value.title}</h1>
-            <p className={styles.descCard}>{value.description}</p>
+            <p className={`${styles.descCard} ${styles.descDesktop}`}>
+              {value.description}
+            </p>
+            <p className={`${styles.descCard} ${styles.descMobile}`}>
+              {value.shortDescription}
+            </p>
             <div className={styles.redirectContainer}>
               <a
                 href={value.urlRepository}
@@ -31,13 +34,15 @@ export const Proyects = () => {
               >
                 Repositorio
               </a>
-              <a
-                href={value.urlDeploy}
-                target="_blank"
-                className={styles.redirect}
-              >
-                Visitar Sitio
-              </a>
+              {value.urlDeploy && (
+                <a
+                  href={value.urlDeploy}
+                  target="_blank"
+                  className={styles.redirect}
+                >
+                  Visitar Sitio
+                </a>
+              )}
             </div>
           </section>
         ))}

@@ -111,6 +111,20 @@ export const Skills = () => {
               className={styles.logo}
             />
           </li>
+          <li>
+            <img
+              src="https://res.cloudinary.com/dqae811zz/image/upload/v1750450528/next_pyi3oa.png"
+              alt="nextjs logo"
+              className={styles.logo}
+            />
+          </li>
+          <li>
+            <img
+              src="https://res.cloudinary.com/dqae811zz/image/upload/v1750450528/mysql_lbxymp.png"
+              alt="mysql logo"
+              className={styles.logo}
+            />
+          </li>
         </ul>
       </section>
     </main>
