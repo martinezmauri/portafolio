@@ -56,7 +56,7 @@ export const AboutMe = () => {
             />
           </a>
           <a
-            href="https://res.cloudinary.com/dqae811zz/image/upload/v1734475379/w1koxb97titymckd2egq.pdf"
+            href="https://res.cloudinary.com/dqae811zz/image/upload/v1750377638/Mauricio_Martinez_Cv_dyydk7.pdf"
             className={styles.buttonCV}
             target="_blank"
           >
